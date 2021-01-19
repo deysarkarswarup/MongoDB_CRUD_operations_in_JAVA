@@ -6,28 +6,20 @@ public class TestObject {
 
     }
 
-    public int employeeID(){
+    public int getEmployeeID(){
         return employeeID;
 
     }
 
-    public String employeeName() {
+    public String getEmployeeName() {
         return employeeName;
     }
 
-    public int getTimer() {
-        return timer;
-    }
-
-    public void setMemberID(int employeeID) {
+    public void setEmployeeID(int employeeID) {
         this.employeeID = employeeID;
     }
 
-    public void setTimer(int timer) {
-        this.timer = timer;
-    }
-
-    public void employeeName(String employeeName) {
+    public void setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
     }
 }
